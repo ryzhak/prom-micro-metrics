@@ -1,0 +1,24 @@
+{
+  "name": "prom-micro-metrics",
+  "version": "1.0.0",
+  "description": "This package exposes server metrics for Prometheus",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha"
+  },
+  "keywords": [
+    "nodejs",
+    "metrics",
+    "prometheus"
+  ],
+  "author": "Vladimir Ryzhak",
+  "license": "ISC",
+  "dependencies": {
+    "prom-client": "^11.2.1",
+    "systeminformation": "^4.0.11"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
